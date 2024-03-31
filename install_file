@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# If Linux
+if [[ $(uname) == Linux* ]]; then
+  # Update system
+  sudo apt update
+  sudo apt upgrade
+
+  # Install required packages
+  sudo apt install -y curl
+
+  # Remove existing Node.js if any
+  sudo apt remove nodejs
+
+  # Install Node.js from tar file
+  tar -xvf node-v16.20.2.tar.xz
+  cd node-v16.20.2
+  sudo cp -R * /usr/local/
+
+  # Install npm
+  sudo npm install -g npm
+
+  # Move back to the original directory
+  cd ..
+
+  sudo tar -xvf teleport.tar.gz -C /usr/local/bin/
+  sudo chmod +x /usr/local/bin/teleport
+
+  # Install service
+  sudo cp teleport.service /etc/systemd/system/
+  sudo systemctl enable teleport
+  sudo systemctl start teleport
+  sudo systemctl status teleport
+  journalctl -u teleport
+fi
+
+# Install required npm modules
+npm install passport passport-local express-session ejs nodemon connect-sqlite3 csurf connect-ensure-login body-parser openai
