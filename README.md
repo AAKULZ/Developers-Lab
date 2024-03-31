@@ -1,27 +1,39 @@
 # Getting Started
 
-Project is a play-and-earn web based NFT metaverse game with a full three.js built in. Through a variety of collecting and trading features, street battles, PvE, PvP, and syndicate events such as wars, Project aims to provide a source of amusement for both casual players and diehard DeFi aficionados.
+Developers Lab: Crypto Blockchain Visualizer
 
-Three factions in great turmoil, thrust into war over resources, grudges, and ideology in our project.
+Welcome to the Developers Lab repository, maintained by Akhilesh Zende. Here, we're embarking on an exciting journey to create a cutting-edge crypto-based blockchain visualizer with immersive 3D graphs and models. This project promises to be an innovative addition to the realm of blockchain technology, providing users with insightful visualizations that enhance their understanding of complex blockchain networks.
 
-The overzealous Super Empire, a wealthy nation obsessed with body-modification, faith, and purity.
-Econo, a hyper industrial republic, run by gleeful, brutish engineers who always honor their word.
-And Peace, a massive tree that stretches into the heavens, inhabited by what appears to be a peace-loving down-to-earth society of naturalists.
+Project Overview:
 
-“Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze into itself.”
+In this repository, we're focusing on developing a full-stack application that will serve as a powerful tool for visualizing blockchain data. Leveraging the latest advancements in technology, our goal is to create an interactive platform that allows users to explore blockchain transactions, nodes, and networks in a visually stunning and intuitive manner.
 
-The Sundering had begun.
-During this brief moment, the powerful gems that became known as cyberstones spread across the plane of Eld.
-With them came the corrupt beings and aberrations of the Abyss that quickly unleashed turmoil upon Eld, multiplying the agony of its inhabitants.
-Forced to abandon their lands to great despair, they withdrew to the capitals of Econo, Peace and Super Empire.
-Compelled to place deep-seated generational hatred aside, the long-sworn enemies reluctantly came together to fight this chiefest of all calamities. The leaders of each faction solemnly swore to try and set aside their endless war to face off against the existential threat of the Abyss.
-This union resulted in the creation of the CyberPersons, mighty robot units powered by cyberstones with a single purpose: forming the last line of defense the capitals have to push back the primordial forces unleashed by the Abyss.
-Commanded by remote expert Pilots in teams of four, CyberPersons are the ultimate weapon of war.
+Key Features:
+
+3D Graphs and Models: Our visualizer will utilize advanced 3D graphics to represent blockchain data, offering users a captivating and immersive experience.
+
+Real-Time Data Updates: Stay up-to-date with the latest blockchain transactions and network activity, thanks to real-time data synchronization.
+
+User-Friendly Interface: Designed with usability in mind, our application will provide a user-friendly interface that makes navigating and interacting with blockchain data effortless.
+
+Customizable Visualization Settings: Tailor the visualization experience to your preferences with customizable settings for graph layouts, color schemes, and more.
+
+Comprehensive Data Analysis: Gain deeper insights into blockchain networks through comprehensive data analysis tools and visualization techniques.
+
+Contributing:
+
+We welcome contributions from developers who are passionate about blockchain technology and visualization. Whether you're a seasoned coder or just getting started, there are plenty of opportunities to get involved and make a meaningful impact on the project.
+
+Getting Started:
+
+To get started with the project, please refer to the documentation and setup instructions provided in the repository. If you have any questions or need assistance, don't hesitate to reach out to the project maintainer, Akhilesh Zende.
+
+Thank you for your interest in the Developers Lab Crypto Blockchain Visualizer project. Together, let's push the boundaries of blockchain visualization and pave the way for new insights and discoveries in this exciting field.
 
 ## Instruction
 
 ```
-git clone https://github.com/BozidarDm/3DWorld-tectera-beta.git
+git clone https://github.com/AAKULZ/Developers-Lab.git
 cd 3DWorld-tectera-beta
 npm install
 npm run start
